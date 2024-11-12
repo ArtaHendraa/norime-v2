@@ -11,7 +11,7 @@ import {
   AccordionContent,
   AccordionItem,
   AccordionTrigger,
-} from "@/components/ui/accordion";
+} from "@/components/ui/Accordion";
 import navbarRoutes from "../../data/navbar-routes.json";
 import dynamic from "next/dynamic";
 import {
