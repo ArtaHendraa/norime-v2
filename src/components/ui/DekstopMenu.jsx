@@ -6,7 +6,7 @@ import {
   NavigationMenuList,
   NavigationMenuTrigger,
   // NavigationMenuViewport,
-} from "@/components/ui/navigation-menu";
+} from "@/components/ui/NavigationMenu";
 import navbarRoutes from "../../data/navbar-routes.json";
 import { usePathname } from "next/navigation";
 

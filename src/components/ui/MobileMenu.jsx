@@ -5,7 +5,7 @@ import {
   SideBarHeader,
   SideBarTitle,
   SideBarTrigger,
-} from "@/components/ui/side-bar";
+} from "@/components/ui/SideBar";
 import {
   Accordion,
   AccordionContent,
@@ -20,12 +20,12 @@ import {
   Link2Icon,
   TextAlignLeftIcon,
 } from "@radix-ui/react-icons";
-import { Button } from "./Button";
+import { Button } from "@/components/ui/Button";
 import { cn } from "@/lib/utils";
 import { usePathname } from "next/navigation";
 import { Link } from "lucide-react";
 
-const ThemeToggle = dynamic(() => import("./theme-toggle"), { ssr: false });
+const ThemeToggle = dynamic(() => import("./ThemeToggle"), { ssr: false });
 
 const MobileMenu = ({ classname }) => {
   const date = new Date();
